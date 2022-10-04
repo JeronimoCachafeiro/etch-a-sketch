@@ -19,7 +19,7 @@ body {
   grid-gap: 0;
 }
 
-.item {
+.square {
   background-color: black;
   color: white;
   height: 50px;

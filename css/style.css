@@ -4,7 +4,9 @@ html {
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 *,
@@ -15,12 +17,8 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(16, 50px);
+  width: 960px;
+  height: 960px;
   grid-gap: 0;
 }
 
-.square {
-  background-color: black;
-  color: white;
-  height: 50px;
-}

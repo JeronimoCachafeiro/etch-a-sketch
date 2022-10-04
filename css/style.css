@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(16, 50px);
+  grid-gap: 0;
+}
+
+.item {
+  background-color: black;
+  color: white;
+  height: 50px;
+}
